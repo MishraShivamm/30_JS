@@ -52,3 +52,29 @@ const reass= 1;
 console.log("old value:",reass);
 reass= 11; // Error because it's decalred using const and it's immutable.
 console.log("new value:",reass);
+
+//Variable Types console log : Write a script that declares variables of different data types and logs both the value and type of each variable to the console.
+
+var nub1 = 2;
+let str = "Hello , this is Day 1 of JS Practice";
+let boolean = false;
+
+const ob ={
+    name : "Shivam"
+};
+
+const array = [1,2,3,4,5];
+console.log(nub1 , typeof nub);
+console.log(str , typeof st);
+console.log(boolean, typeof bool);
+console.log(ob , typeof obj);
+console.log(array , typeof arr);
+
+//Create a script that demonstrates the difference in behaviour between "let" and "const" when it comes to reassignment.
+
+let weight = 33;
+weight = 35;
+// in this weight value will be updated.As it's mutable.
+ const nun = 1;
+ nun = 3;
+ // This will through an error as const is immutable and we can not change it's value once declared
