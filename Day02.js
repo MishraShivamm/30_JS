@@ -103,3 +103,38 @@ Taskk 14: Write a program that uses the ternary operator to check if a number is
 let number1 = (-5>0)? "Positive" : "Negative";
 console.log(number1);
 
+/* Feature Request
+Arithmetic Operations Script: Write a script that performs basic arithmetic operations on two numbers and logs the results. */
+
+let fr = 3;
+let fr1 = 5;
+addition = fr + fr1;
+subtraction = fr- fr1;
+multipy = fr * fr1;
+division = fr/fr1;
+remain= fr % fr1;
+let obj = {addition , subtraction,multipy,division,remain};
+console.log(obj);
+
+//comparison and Logical Operators Script: Create a script that compares two numbers using different comparison opperators and combines conditions using logical operators, logging the results.
+
+let cop = 34;
+let cop1 = "33";
+greater= cop > cop1;
+less = cop > cop1;
+greater_equal = cop >= cop1;
+less_equal = cop <= cop1;
+equality_operator = cop == cop1;
+strict_equality_operator = cop === cop1;
+// combinig with logical operators
+AND = cop +cop1 && cop -cop1;
+OR= cop +cop1 || cop -cop1;
+NOT_equal = !(cop +cop1);
+let obj1 = {greater,less,greater_equal,less_equal,equality_operator,strict_equality_operator, AND, OR,NOT_equal};
+console.log(obj1);
+
+//Ternary Operator Script : Write a script that uses the ternary operator to determine if a number is positive or negative and logs the result
+
+let numm = 3;
+let topr= (numm >0)? "Positive":"Negative";
+console.log(`${numm}` ,"is" ,`${topr}`);
